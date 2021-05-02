@@ -1,0 +1,378 @@
+/* 
+    Theme Name:  CDO-SGUPS
+*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+
+	
+}
+
+
+/* Breakpoints */
+/* xs <576px */
+	.studentSocialCard {
+		display: none;
+	}
+
+	.studentSocialCardMobile {
+		display: inline;
+	}
+	header {
+		padding-bottom: 60px;
+		display:none;
+	}
+	
+	.textHeader {
+		font-size: 14px;
+	}
+
+	.card-footer {	
+		padding-top: 20px;
+	}	
+
+	.logoSTU {
+		display:none;	
+	}
+	.my-4 {	
+		font-size: 30px;
+		padding-bottom: 15px;
+	}
+
+	table {
+	 	table-layout: fixed; 
+		width:100%;
+		font-size:14px; 
+	}
+	td:first-child {
+		width: 60%;
+	}
+	td:last-child {
+		width: 40%;
+	}
+
+/* sm >=576px */
+@media (min-width: 576px) {
+
+	.textHeader {
+		font-size: 20px;
+	}
+	.portfolioHeaderText {
+		font-size: 16px !important;
+	}
+	.card-footer {	
+		padding-top: 20px;
+	}
+	.logoSTU {
+		display:none;	
+	}
+	.my-4 {	
+		font-size: 32px;
+		padding-bottom: 30px;
+	}
+	
+}
+
+/* md >= 768px */
+@media (min-width: 768px) {
+  
+	header {
+		display:block;
+	}
+	.studentSocialCard {
+		display: block;
+	}	
+	.studentSocialCardMobile {
+		display: none;
+	}
+
+	.textHeader {
+		font-size: 20px;
+	}
+	.portfolioHeaderText {
+			font-size: 20px !important;
+	}
+	.card-footer {	
+		padding-top: 40px;
+	}
+	.logoSTU {
+		display:inline;	
+	}
+	
+}
+
+/* lg >= 992px */
+@media (min-width: 992px) {
+  
+	header {
+		display:block;
+	}
+	.textHeader {
+		font-size: 20px;
+	}
+	.portfolioHeaderText {
+		font-size: 20px !important;
+	}
+	.card-footer {	
+		padding-top: 60px;
+	}
+	
+	.logoSTU {
+		display:inline;	
+	}
+	.my-4 {	
+		font-size: 42px;
+	}
+	table {
+		font-size: 18px;
+	}
+}
+
+/* xl >= 1200px */
+@media (min-width: 1200px) {
+
+	header {
+		display:block;
+	}	
+	.textHeader {
+		font-size: 20px;
+	}
+	.portfolioHeaderText {
+		font-size: 24px !important;
+	}
+	.card-footer {	
+	padding-top: 60px;
+	}	
+	.logoSTU {
+		display:inline;	
+	}
+	table {
+		font-size: 18px;
+	}
+	
+}
+
+html, body {
+  	padding-top: 0px;
+	height: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+.contHeader {
+	color: #fff;
+	background-color: #165DAA;
+}
+
+.loginLink {
+	color: #fff;
+	font-size: 14px;
+	text-decoration:underline;
+	margin-right: 10px;	
+}
+
+.loginLink:hover {
+	color: rgb(159 192 228);
+	text-decoration: unset;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.containerMiniHeader {
+	background-color: #165DAA;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	margin-left: 10px;
+}
+
+.carousel-indicators li.active {
+	background-color: #007BFF;
+}
+
+hr {
+	margin-bottom: 60px;
+	margin-top: 60px;
+	background: #165DAA;
+	height: 1px;
+}
+
+.classHeaderText {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+	padding: 22px 15px;
+}
+
+.classHeaderDouble {
+	margin-bottom: 50px;
+}
+
+
+.my-4 {
+	font-weight: bold;
+	color: #3C4146;
+}
+
+.my-5 {	
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	color: #3C4146;
+	padding-bottom: 30px;
+}
+
+.card-footer {
+	background-color: #fff;
+	border:none;
+}
+
+.btnForClass .btnForProjects .btnForStudent { 
+	background: #007BFF;
+	font-weight: bold;
+}
+
+.portfolioHeaderText {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 22px;
+}
+
+.btnForClass {	
+	border-radius: 22px;
+	font-size: 15px;
+}
+
+.btnForProjects {	
+	border-radius: 25px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+	background-color: #3F81C8;
+	border-radius: 0px;	
+	margin-bottom:0px;
+}
+
+.breadcrumb-item a{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.breadcrumb-item.active {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* Student card */
+
+.card-student {
+	border-radius: 10px;
+	background: #F7F7F7;
+	border: 1px solid #A9B5C2;
+	margin-bottom: 20px;
+	
+}
+
+.studentAva {
+	border-radius: 10px;
+	margin: 16px 0px 16px 16px;
+}
+
+.card-title {
+	color: #3C4146;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.btnForStudent {	
+	border-radius: 22px;
+	font-size: 15px;
+}
+
+/* Personal Page */
+.nav {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: rgb(159 192 228);
+}
+.nav-link.active {
+	border-bottom: #FFFFFF solid 1px;
+}
+
+.studentName {
+	color:#000000;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.studentClass {
+	font-weight: 500;
+	font-size: 18px;
+	color: #595E63;
+}
+
+.studentSocialCard {
+	margin: 10px;
+}
+
+.studentSocialCardMobile {
+	margin-top: 5px;
+}
+
+.studentSocialLinks {
+	color: #AAAAAA;
+	margin: 5px;
+}
+
+.fon_Rectangle {
+	background: linear-gradient(90deg, #F7F7F7 30%, #FFFFFF 0%);
+	padding-top:50px;
+}
+
+.studentBIO {
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.img-width-100 {
+	width:100px !important;
+}
+
+.smallTitlePortfolio {
+	font-weight: bold;
+	font-size: 24px;
+	color: #165DAA;
+}
+
+.thead-score-head {
+	background-color: #f7f7f7;
+	border-bottom: solid 2px #AAAAAA;
+	
+}
