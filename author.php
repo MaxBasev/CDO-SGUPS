@@ -499,7 +499,7 @@ $hideprofilez = get_field('profile_hidden');
 	</div>
 </div>
 
-<!-- if profile hidden -->
+<!-- If profile hidden -->
 
 <?php }
 else {?>
